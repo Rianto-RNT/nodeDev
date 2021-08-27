@@ -1,1 +1,3 @@
-console.log(module);
+const log = require('./nodeSystemModule/logger');
+
+log('message');
